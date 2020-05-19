@@ -83,39 +83,6 @@ p{
     font-size: 25px;
 
 }
-.square-container {
-  text-align: center;
-}
-.square {
-  width: 1000px;
-  height: 1000px;
-  display: inline-block;
-}
-.container1 {
-  float: left;
-  width: 100%;
-  border: 1px solid;
-}
-#div1 {
-  float: left;
-  width: 33%;
-  background-color: black;
-  color: white;
-}
-#div2 {
-  float: left;
-  width: 33%;
-  background-color: black;
-  color: white;
-  text-decoration-color: black;
-}
-#div3 {
-  float: left;
-  width: 33%;
-  background-color: black;
-  color: white;
-}
-
 @media (min-width:992px){
 
 }
