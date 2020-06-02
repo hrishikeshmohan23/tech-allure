@@ -20,6 +20,7 @@ if(a==true)
     }
 
 }
+
 function Validatename(x) 
 {
     var letters=/^[A-Za-z" "]+$/;
@@ -58,7 +59,7 @@ function Validatename(x)
  function ValidateASD(x,y,z)
  {
      var def="Default";
-     var EMAIL=/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@+[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;  
+        var EMAIL=/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
      if(x.value.length==0)
      {
         alert("Message:Address field is blank");
@@ -66,15 +67,10 @@ function Validatename(x)
      }
      else if(y.value.length==0 || y.value.match(def))
      {
-         
         alert("Message:Email field is blank");
         return false;
      }
-     else if(!(y.value.match(EMAIL))
-     {
-        alert("Message:Email field is wrong");
-        return false;
-     }
+     
      else if(z.value.length==0)
      {
         alert("Message:State field is blank");
