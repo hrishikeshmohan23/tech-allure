@@ -70,7 +70,7 @@ img{
 }
 .para1{
   background-color: white;
-  font-style: font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   max-width: 80%;
   color: black;
 }
@@ -81,8 +81,10 @@ img{
 nav {
   width: 80%;
   margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
   background: black;
   padding: 50px 0;
+
   box-shadow: 0px 5px 0px #dedede;
 }
 div{
